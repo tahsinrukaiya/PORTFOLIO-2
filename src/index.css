@@ -1,6 +1,8 @@
 * {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .banner {
@@ -16,10 +18,18 @@
 .heading-one {
   font-size: 8rem;
   font-weight: 200;
-  color: white;
+  color: #F9E8C9;
   animation: fadeInScale 2s ease-out forwards;
   opacity: 0;
   transform: scale(0.8);
+}
+
+.description {
+  color: #F9E8C9;
+}
+
+.project-detail-banner {
+  color: #F9E8C9;
 }
 
 @keyframes fadeInScale {
@@ -37,4 +47,54 @@
 .description {
   font-size: 20px;
   font-weight: 200;
+}
+
+/*------------------------CARDS---------------------------*/
+.card {
+  height: 500px;
+}
+
+.card-img-top {
+  transition: transform 0.5s;
+  height: 200px;
+}
+
+.card-title {
+  color: #0B192C;
+}
+
+.project-detail {
+  color: #0B192C;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  background: linear-gradient(transparent, #F9E8C9 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.overlay h5 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #0B192C;
+}
+
+.card:hover .overlay {
+  height: 100%;
 }
