@@ -1,0 +1,40 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.banner {
+  background-color: #0B192C;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  height: 120vh;
+  clip-path: path("M0,600 C500,500 940,500 1440,600 L1440,0 L0,0 Z");
+}
+
+.heading-one {
+  font-size: 8rem;
+  font-weight: 200;
+  color: white;
+  animation: fadeInScale 2s ease-out forwards;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 200;
+}
