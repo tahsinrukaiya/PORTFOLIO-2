@@ -1,3 +1,5 @@
+import myImage from "../assets/me.jpg"
+
 const Banner = () => {
     return (
         <>
@@ -17,7 +19,7 @@ const Banner = () => {
                             </p>
                         </div>
                         <div className="col">
-                            <div className="banner-img-container"><img src="/src/assets/myself.jpg" className="banner-img rounded-circle"></img></div>
+                            <div className="banner-img-container"><img src={myImage} className="banner-img rounded-circle"></img></div>
                         </div>
                     </div>
                 </div>
