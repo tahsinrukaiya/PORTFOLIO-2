@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
         <>
-            <div className="row skill-container justify-content-center align-items-center text-center mx-5">
+            <div className="row skill-container justify-content-center align-items-center text-center mx-5 pb-5">
                 <div className="col">
                     <h3 className="heading-2 mt-5 mb-5">Skills</h3>
                     <ul className="skills-list list-unstyled d-flex justify-content-center align-item-center">
