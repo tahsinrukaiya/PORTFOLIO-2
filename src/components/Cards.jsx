@@ -1,5 +1,5 @@
 import auction_house from "../assets/auction-house.JPG";
-import eCommerce from "../assets/eCom.JPG";
+import eCommerce from "../assets/ecom.JPG";
 import holidayz from "../assets/holidaze.JPG";
 
 export default function Cards() {
