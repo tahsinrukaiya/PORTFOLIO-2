@@ -64,6 +64,10 @@ body {
   border-radius: 50%;
 }
 
+.icon {
+  font-size: 30px !important;
+}
+
 /*------------------------SKILLS--------------------------*/
 .skill-container {
   background: #F9E8C9;
