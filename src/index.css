@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .banner {
   background-color: #0B192C;
   color: white;
@@ -16,7 +23,7 @@
 }
 
 .heading-one {
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 200;
   color: #F9E8C9;
   animation: fadeInScale 2s ease-out forwards;
@@ -49,9 +56,31 @@
   font-weight: 200;
 }
 
+.banner-img {
+  margin-top: 15%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*------------------------SKILLS--------------------------*/
+.skill-container {
+  background: #F9E8C9;
+  border-radius: 20px;
+}
+
+.skill-item {
+  border: 2px solid #0B192C !important;
+  border-radius: 20px !important;
+  font-weight: bold !important;
+}
+
+
 /*------------------------CARDS---------------------------*/
 .card {
   height: 500px;
+  border: 3px solid #F9E8C9;
 }
 
 .card-img-top {
@@ -97,4 +126,71 @@
 
 .card:hover .overlay {
   height: 100%;
+}
+
+.fa-github {
+  font-size: 24px;
+}
+
+.fa-link {
+  font-size: 24px;
+}
+
+.links a {
+  color: #0B192C !important;
+}
+
+/*---------------------------------FOOTER--------------------------------*/
+
+.wave-container {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+.wave-svg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.footer-text {
+  color: #F9E8C9;
+}
+
+/*-----------------------MEDIA QUERY----------------------------------*/
+@media (min-width: 375px) and (max-width: 768px) {
+  .banner {
+    height: 100vh;
+  }
+
+  .heading-one {
+    font-size: 4rem;
+    font-weight: 200;
+    color: #F9E8C9;
+    animation: fadeInScale 2s ease-out forwards;
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  .banner-img {
+    display: none;
+  }
+
+  .skill-container {
+    margin-top: 0 !important;
+  }
+
+  .skills-list {
+    flex-direction: column !important;
+  }
+
+  .skill-item {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+
 }
