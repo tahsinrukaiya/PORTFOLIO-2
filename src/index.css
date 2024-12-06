@@ -23,16 +23,50 @@ body {
 }
 
 .heading-one {
-  font-size: 7rem;
-  font-weight: 200;
+  font-size: 8rem;
+  font-weight: 100;
   color: #F9E8C9;
   animation: fadeInScale 2s ease-out forwards;
   opacity: 0;
   transform: scale(0.8);
 }
 
+.slogan {
+  font-size: 1.5rem;
+  font-family: monospace;
+  border-right: 2px solid #100720;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  animation: typing 2s steps(20, end) forwards, blink-cursor 0.5s step-end 2s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-cursor {
+  50% {
+    border-color: #F9E8C9;
+  }
+}
+
+.about-me {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
 .description {
   color: #F9E8C9;
+  font-size: 16px !important;
 }
 
 .project-detail-banner {
@@ -66,6 +100,7 @@ body {
 
 .icon {
   font-size: 30px !important;
+  color: #F9E8C9;
 }
 
 /*------------------------SKILLS--------------------------*/
@@ -77,14 +112,18 @@ body {
 .skill-item {
   border: 2px solid #100720 !important;
   border-radius: 20px !important;
-  font-weight: bold !important;
+  font-weight: 600 !important;
 }
 
+.skill-icon {
+  font-size: 2rem;
+  color: #100720;
+}
 
 /*------------------------CARDS---------------------------*/
 .card {
   height: 500px;
-  border: 3px solid #F9E8C9;
+
 }
 
 .card-img-top {
@@ -164,6 +203,10 @@ body {
   color: #F9E8C9;
 }
 
+.copyright {
+  font-size: 12px;
+}
+
 /*-----------------------MEDIA QUERY----------------------------------*/
 @media (min-width: 375px) and (max-width: 768px) {
   .banner {
@@ -179,6 +222,19 @@ body {
     transform: scale(0.8);
   }
 
+  .slogan {
+    white-space: normal;
+    word-wrap: break-word;
+    animation: none;
+    width: auto;
+    border-right: none;
+    font-size: 1rem !important;
+  }
+
+  .description {
+    font-size: 15px !important;
+  }
+
   .banner-img {
     display: none;
   }
@@ -189,6 +245,8 @@ body {
 
   .skill-container {
     margin-top: 0 !important;
+    margin-right: 12px !important;
+    margin-left: 12px !important;
   }
 
   .skills-list {
@@ -198,6 +256,14 @@ body {
   .skill-item {
     padding: 0 !important;
     margin-bottom: 10px !important;
+    font-size: 18px !important;
+    margin-left: 10px !important;
+  }
+
+  .skill-icon {
+    font-size: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
 
 

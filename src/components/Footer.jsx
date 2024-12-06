@@ -8,7 +8,7 @@ export default function Footer() {
                         d="M0,0 C480,50 960,50 1440,0 L1440,120 L0,120 Z"
                     ></path>
                 </svg>
-                <h6 className="text-center">©rukaiya tahsin 2024</h6>
+                <h6 className="text-center copyright">©rukaiya tahsin 2024</h6>
             </div>
         </>
     );

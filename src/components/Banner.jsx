@@ -8,14 +8,13 @@ const Banner = () => {
                     <div className="row">
                         <div className="col">
                             <h2 className="heading-one text-start">Welcome</h2>
-                            <p className="description text-start">
-                                HELLO!
-                                I am Rukaiya Tahsin, studying Front-end development at
-                                Noroff School of Technology and Digital Media.
-                                I am learning visual, experiental and functional
-                                aspects of creating for web. Through my learning
-                                I want to acheive more beauty, creativity,
-                                and good ideas into the world through web design.
+                            <span className="slogan"> Crafting User-Centered Designs with Clean Code</span><br />
+                            <h6 className="about-me text-start mt-3">A bit about me</h6>
+                            <p className="description text-start mt-3">
+                                HELLO! I’m Rukaiya Tahsin, a Frontend Developer
+                                driven by a passion for crafting stunning, user-friendly, and engaging web experiences.
+                                With a blend of creativity and clean design, I strive to bring fresh ideas to life and
+                                make the web a more beautiful place.
                             </p>
                             <div className="text-start"><i className="icon fa-brands fa-github me-3"></i>
                                 <i className="icon fa-brands fa-linkedin"></i></div>
