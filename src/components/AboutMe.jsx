@@ -1,4 +1,4 @@
-import coding from "../assets/coding.PNG"
+import coding from "../assets/coding.png"
 
 export default function AboutMe() {
     return (
