@@ -1,9 +1,9 @@
-import html from "../assets/html.PNG";
-import css from "../assets/css.PNG";
-import js from "../assets/js.PNG";
-import bootstrap from "../assets/bootstrap.PNG";
-import react from "../assets/react.PNG";
-import figma from "../assets/figma.PNG";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js.png";
+import bootstrap from "../assets/bootstrap.png";
+import react from "../assets/react.png";
+import figma from "../assets/figma.png";
 
 export default function Skills() {
     return (
