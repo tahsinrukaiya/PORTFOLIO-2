@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import AboutMe from "./components/AboutMe"
 import Cards from "./components/Cards"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Banner />
+      <AboutMe />
       <Skills />
       <Cards />
       <Contact />

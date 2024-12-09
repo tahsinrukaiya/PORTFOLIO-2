@@ -7,17 +7,13 @@ const Banner = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h2 className="heading-one text-start">Welcome</h2>
+                            <h3 className="logo mt-3 text-start">RT</h3>
+                            <h2 className="heading-one text-start mt-5">Welcome</h2>
                             <span className="slogan"> Crafting User-Centered Designs with Clean Code</span><br />
-                            <h6 className="about-me text-start mt-3">A bit about me</h6>
-                            <p className="description text-start mt-3">
-                                HELLO! I’m Rukaiya Tahsin, a Frontend Developer
-                                driven by a passion for crafting stunning, user-friendly, and engaging web experiences.
-                                With a blend of creativity and clean design, I strive to bring fresh ideas to life and
-                                make the web a more beautiful place.
-                            </p>
-                            <div className="text-start"><i className="icon fa-brands fa-github me-3"></i>
-                                <i className="icon fa-brands fa-linkedin"></i></div>
+                            <p className="intro-name">Rukaiya Tahsin || Frontend Developer</p>
+                            <div className="text-start">
+                                <a href="https://github.com/tahsinrukaiya"><i className="icon fa-brands fa-github me-3 mt-3"></i></a>
+                                <a href="https://www.linkedin.com/in/rukaiya-tahsin/"><i className="icon fa-brands fa-linkedin"></i></a></div>
                         </div>
                         <div className="col">
                             <div className="banner-img-container"><img src={myImage} className="banner-img rounded-circle"></img></div>

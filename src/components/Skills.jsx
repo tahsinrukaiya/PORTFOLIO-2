@@ -1,16 +1,23 @@
+import html from "../assets/html.PNG";
+import css from "../assets/css.PNG";
+import js from "../assets/js.PNG";
+import bootstrap from "../assets/bootstrap.PNG";
+import react from "../assets/react.PNG";
+import figma from "../assets/figma.PNG";
+
 export default function Skills() {
     return (
         <>
-            <div className="row skill-container justify-content-center align-items-center text-center mx-5 pb-5">
+            <div className="row skill-container justify-content-center align-items-center text-center mx-5 pb-5 mt-5 mb-5">
                 <div className="col">
-                    <h3 className="heading-2 mt-5 mb-5">Skills</h3>
+                    <h3 className="skill-heading mt-5 mb-5">Skills</h3>
                     <ul className="skills-list list-unstyled d-flex justify-content-center align-item-center">
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">HTML<i className="skill-icon fa-brands fa-html5 mx-2"></i></li>
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">CSS<i className="skill-icon fa-brands fa-css mx-2"></i></li>
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">JS<i className="skill-icon fa-brands fa-js mx-2"></i></li>
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">React<i className="skill-icon fa-brands fa-react mx-2"></i></li>
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">Bootstrap <i className="skill-icon fa-brands fa-bootstrap mx-2"></i></li>
-                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">Figma<i className="skill-icon fa-brands fa-figma mx-2"></i></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">HTML <img src={html} className="skill-icon mx-2"></img></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">CSS<img src={css} className="skill-icon mx-2"></img></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">JS<img src={js} className="skill-icon mx-2"></img></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">React<img src={bootstrap} className="skill-icon mx-2"></img></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">Bootstrap <img src={react} className="skill-icon mx-2"></img></li>
+                        <li className="skill-item me-3 border pt-3 pb-3 px-3 rounded">Figma<img src={figma} className="skill-icon mx-2"></img></li>
                     </ul>
                 </div>
             </div>
