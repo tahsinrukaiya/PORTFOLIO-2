@@ -88,7 +88,7 @@ body {
 }
 
 .banner-img {
-  margin-top: 20%;
+  margin-top: 15%;
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -190,7 +190,8 @@ body {
 .skill-item {
   border: 2px solid #F9E8C9 !important;
   border-radius: 20px !important;
-  font-weight: 600 !important;
+  font-size: 24px;
+  font-weight: 300 !important;
   color: #F9E8C9;
 }
 
@@ -304,7 +305,8 @@ body {
   }
 
   .heading-one {
-    font-size: 4rem;
+    margin-top: 7px !important;
+    font-size: 2.3rem;
     font-weight: 200;
     color: #F9E8C9;
     animation: fadeInScale 2s ease-out forwards;
@@ -326,7 +328,8 @@ body {
   }
 
   .banner-img {
-    display: none;
+    height: 150px;
+    width: 150px;
   }
 
   .about-me-container {
