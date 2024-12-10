@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "PT Serif", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,8 @@ body {
 
 .logo {
   font-size: 2rem;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Architects daughter";
+  font-weight: 400;
 }
 
 .banner {
@@ -30,10 +31,12 @@ body {
 .heading-one {
   font-size: 8rem;
   font-weight: 100;
+  font-style: normal;
   color: #F9E8C9;
   animation: fadeInScale 2s ease-out forwards;
   opacity: 0;
   transform: scale(0.8);
+  font-family: "Montserrat", serif;
 }
 
 .slogan {
@@ -97,8 +100,7 @@ body {
   color: #F9E8C9;
 }
 
-/*-------------------------------ABOUT CONTAINER-----------------*/
-
+/*-------------------------------ABOUT CONTAINER------------------------*/
 .about-me {
   font-weight: 300;
   font-size: 24px;
@@ -120,15 +122,61 @@ body {
 }
 
 .contact-btn {
-  border: 2px solid #100720;
+  background-color: #100720;
+  color: #F9E8C9;
+  font-size: 1rem;
+  border: none !important;
 }
 
 .contact-btn:hover {
-  background-color: #100720 !important;
+  background-color: #F9E8C9 !important;
+  color: #100720 !important;
+  border: 1.2px solid #100720 !important;
+}
+
+.modal-header {
+  background: #100720 !important;
   color: #F9E8C9 !important;
 }
 
-/*------------------------SKILLS--------------------------*/
+.modal-title {
+  font-size: 2rem !important;
+}
+
+.modal-body {
+  background: #F9E8C9 !important;
+  color: #100720 !important;
+}
+
+.modal.fade.show {
+  display: block !important;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-close {
+  cursor: pointer;
+}
+
+.close-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-btn {
+  background: #100720 !important;
+  color: #F9E8C9 !important;
+}
+
+.close-btn {
+  background: #A59D84 !important;
+  color: #100720 !important
+}
+
+/*---------------------------------SKILLS-----------------------------*/
 .skill-heading {
   color: #F9E8C9;
 }
@@ -165,6 +213,7 @@ body {
 
 .card-title {
   color: #100720;
+  font-size: 2rem;
 }
 
 .project-detail {
