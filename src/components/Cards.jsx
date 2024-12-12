@@ -9,7 +9,7 @@ export default function Cards() {
                 <h2 className="text-center mb-5 mt-5">My Projects</h2>
                 <div className="col-12 col-md-6 col-lg-4">
                     <div className="card">
-                        <img src={auction_house} className="card-img-top" alt="..."></img>
+                        <img src={auction_house} className="card-img-top pt-3 px-3" alt="..."></img>
                         <h5 className="card-title px-3 mt-3">Auction House</h5>
                         <p className="project-detail px-3">
                             A dynamic online platform where users can engage in buying and selling activities through an intuitive auction system.
@@ -36,7 +36,7 @@ export default function Cards() {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                     <div className="card">
-                        <img src={eCommerce} className="card-img-top" alt="..."></img>
+                        <img src={eCommerce} className="card-img-top pt-3 px-3" alt="..."></img>
                         <h5 className="card-title px-3 mt-3">E-Commerce Shop</h5>
                         <p className="project-detail px-3">
                             An Online Shop, a modern, responsive eCommerce application powered
@@ -62,7 +62,7 @@ export default function Cards() {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                     <div className="card">
-                        <img src={holidayz} className="card-img-top" alt="..."></img>
+                        <img src={holidayz} className="card-img-top pt-3 px-3" alt="..."></img>
                         <h5 className="card-title px-3 mt-3">Holidayz Booking</h5>
                         <p className="project-detail px-3">An application designed for seamless accommodation booking experiences.
                             This project showcases both customer-facing and admin-facing functionalities,
