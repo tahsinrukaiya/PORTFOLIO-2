@@ -11,9 +11,10 @@ const Banner = () => {
                             <div className="banner-img-container"><img src={myImage} className="banner-img rounded-circle"></img></div>
                         </div>
                         <div className="col">
-                            <h2 className="heading-one text-start mt-5">Welcome</h2>
+                            <h2 className="heading-one text-start mt-5">Transforming Ideas into Interactive Experiences</h2>
                             <span className="slogan text-start"> Crafting User-Centered Designs with Clean Code</span><br />
-                            <p className="intro-name text-start">Frontend Developer</p>
+
+                            <p className="intro-name text-start">Rukaiya Tahsin || Frontend Developer</p>
                             <div className="text-start">
                                 <a href="https://github.com/tahsinrukaiya"><i className="icon fa-brands fa-github me-3 mt-3"></i></a>
                                 <a href="https://www.linkedin.com/in/rukaiya-tahsin/"><i className="icon fa-brands fa-linkedin"></i></a></div>
